@@ -599,6 +599,12 @@
     margin-top: 10px;
 }
 
+.possibilities-star{
+    position: absolute;
+    top:39px;
+    left: 23px;
+}
+
 .possibilities-picture {
     min-height: 408px;
     position: relative;
@@ -786,6 +792,7 @@
     font-size: 16px;
     line-height: 19.2px;
     color: var(--black);
+    letter-spacing: 0.5px;
 
 }
 
@@ -2286,6 +2293,11 @@
     .faq-item {
         padding: 20px 25px;
         border-radius: 25px;
+    }
+    .possibilities-star{
+        top:11px;
+        left: 7px;
+        max-width: 17px;
     }
 
     .page-decor {
