@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+.icon {
+    display: inline-block;
+    height: 1em;
+    width: 1em;
+    mask-size: contain;
+    -webkit-mask-size: contain;
+    mask-repeat: no-repeat;
+    -webkit-mask-repeat: no-repeat;
+    mask-position: center;
+    -webkit-mask-position: center;
+}
+.icon-star{
+    mask-image: url(star.svg);
+    -webkit-mask-image: url(star.svg);
+}
+.arrow-right{
+    mask-image: url(arrowRight.svg);
+    -webkit-mask-image: url(arrowRight.svg);
+
+}
+.arrow-left{
+    mask-image: url(arrowLeft.svg);
+    -webkit-mask-image: url(arrowLeft.svg);
+
+}
+
+.icon-gpt{
+    mask-image: url(gpt.svg);
+    -webkit-mask-image: url(gpt.svg);
+
+}
+.icon-tag{
+    mask-image: url(tag.svg);
+    -webkit-mask-image: url(tag.svg);
+}
+.icon-tag2{
+    mask-image: url(tag2.svg);
+    -webkit-mask-image: url(tag2.svg);
+}
+
+.icon-tag3{
+    mask-image: url(tag3.svg);
+    -webkit-mask-image: url(tag3.svg);
+}
+
+.icon-path{
+    mask-image: url(../path.svg);
+    -webkit-mask-image: url(../path.svg);
+}
+.possibilities-icon1{
+    mask-image: url(possibilitiesIcon1.svg);
+    -webkit-mask-image: url(possibilitiesIcon1.svg);
+}
+.possibilities-icon2{
+    mask-image: url(possibilitiesIcon2.svg);
+    -webkit-mask-image: url(possibilitiesIcon2.svg);
+}
+.possibilities-icon3{
+    mask-image: url(possibilitiesIcon3.svg);
+    -webkit-mask-image: url(possibilitiesIcon3.svg);
+}
+.icon-star2{
+    mask-image: url(star2.svg);
+    -webkit-mask-image: url(star2.svg);
+}
+
+.trust-icon{
+    mask-image: url(../path.svg);
+    -webkit-mask-image: url(../path.svg);
+}
