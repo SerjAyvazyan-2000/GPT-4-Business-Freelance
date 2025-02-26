@@ -150,7 +150,9 @@
         bottom: -10px;
     }
 
-
+    .footer-body {
+        gap: 60px;
+    }
     .footer-clue {
         display: none;
     }
