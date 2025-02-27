@@ -95,13 +95,11 @@ header.moved .header-body {
     transition: 0.3s ease-in-out;
     padding: 12px 31px;
     border-radius: 10px;
-    border: 0.5px solid var(--white2);
     background-color: var(--white);
 }
 
 .btn-login:hover {
     background: var(--gold);
-    border: 0.5px solid var(--white3);
     box-shadow: 0px 4px 25px 0px rgba(255, 204, 74, 0.45);
 
 }

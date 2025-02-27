@@ -76,8 +76,9 @@
 }
 
 .decor-animation--tree {
-    top: 500px;
+    top: 501px;
     left: 30px;
+
 }
 
 .decor-animation--for {
@@ -121,14 +122,17 @@
 
 .hero-btn {
     padding: 23px 66.5px;
-    margin-left: 250px;
+    margin-left: 280px;
 }
 
 
 .hero-btn:hover {
-    box-shadow: 0px 4px 25px 0px var(--dark-gold2);
+    box-shadow: 0px 4px 25px 0px var(--dark-gold);
+    background: var(--gold);
+    color: var(--black);
 
 }
+
 .powered {
     gap: 10px;
 
@@ -246,10 +250,37 @@
 
 .hero-reviews-item {
     padding: 21px 20px 23px 53px;
-    background-color: var(--white);
     border-radius: 25px;
     position: relative;
 }
+
+
+.hero-slider .swiper-slide .hero-reviews-item  {
+    background: rgba(255, 255, 255, 0.08) !important;
+    opacity: 0 !important;
+
+}
+
+
+.hero-slider .swiper-slide-next .hero-reviews-item  {
+    background: var(--gray8) !important;
+    opacity: 1 !important;
+
+}
+
+.hero-slider .swiper-slide-prev .hero-reviews-item  {
+    background: var(--gray8) !important;
+    opacity: 1 !important;
+
+}
+
+.hero-slider .swiper-slide-visible .hero-reviews-item  {
+    background: var(--white) !important;
+    opacity: 1 !important;
+}
+
+
+
 
 .hero-reviews-item {
     cursor: default !important;
@@ -313,13 +344,23 @@
 }
 
 .reviews-arrow-right {
-    right: 20px;
-    top: 78px;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .reviews-arrow-left {
-    left: 20px;
-    top: 78px;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .hero-media {
@@ -446,6 +487,21 @@
     left: 0;
 }
 
+.task-decor--one{
+    top: 182px;
+    left: 16px;
+    background-color: var(--primary);
+}
+.task-decor--two{
+    top: 343px;
+    right: 33px;
+    background-color: var(--primary);
+}
+.task-decor--tree{
+    top: 500px;
+    right: 0;
+    background-color: var(--primary);
+}
 .task-decor-two {
     position: absolute;
     top: 343px;
@@ -466,8 +522,13 @@
     position: absolute;
     left: 400px;
     bottom: 86px;
+    border-radius: 16px;
 }
+.any-task-img img{
+    border-radius: 16px;
+    object-fit: cover;
 
+}
 .any-task-media {
     justify-content: space-between;
     gap: 20px;
@@ -599,9 +660,9 @@
     margin-top: 10px;
 }
 
-.possibilities-star{
+.possibilities-star {
     position: absolute;
-    top:39px;
+    top: 39px;
     left: 23px;
 }
 
@@ -916,6 +977,32 @@
     left: 0;
 }
 
+.possibilities-animation--one{
+    top: 775px;
+    left: 0;
+    background-color: var(--primary);
+}
+.possibilities-animation--two{
+    top: 842px;
+    left: 30px;
+    background-color: var(--primary);
+
+}
+.possibilities-animation--tree{
+    top: 580px;
+    right: 30px;
+    background-color: var(--primary);
+}
+.possibilities-animation--for{
+    top: 655px;
+    right: 30px;
+    background-color: var(--primary);
+}
+.possibilities-animation--five{
+    top: 228px;
+    left: 39px;
+    background-color: var(--primary);
+}
 .possibilities-decor-six {
     bottom: 392px;
     position: absolute;
@@ -1057,8 +1144,11 @@
     padding: 23px 66.5px;
 }
 
+
 .prompt-btn:hover {
-    box-shadow: 0px 4px 25px 0px var(--dark-gold2);
+    box-shadow: 0px 4px 25px 0px var(--dark-gold);
+    background: var(--gold);
+    color: var(--black);
 
 }
 
@@ -1194,6 +1284,18 @@
     left: 0;
 }
 
+.work-animation--one{
+    bottom: 112px;
+    left: 45px;
+    background-color: var(--primary);
+}
+
+.work-animation--two{
+    bottom: 202px;
+    left: 30px;
+    background-color: var(--primary);
+}
+
 
 .reviews-section {
     margin-top: 10px;
@@ -1218,7 +1320,7 @@
 
 .reviews-body::after {
     content: '';
-    height: 100%;
+    height: 140px;
     background-color: var(--gray);
     width: 1px;
     position: absolute;
@@ -1241,6 +1343,17 @@
     position: absolute;
     right: 0;
     bottom: 75px;
+}
+
+.reviews-decor--one{
+    top: 325px;
+    right: 15px;
+    background: var(--primary);
+}
+.reviews-decor--two{
+    top: 420px;
+    right: 15px;
+    background: var(--primary);
 }
 
 .reviews-line {
@@ -1397,25 +1510,30 @@
     top: 40px;
     left: 34px;
 }
+.faq-decor--one{
+    top: 56px;
+    left: 51px;
+    background-color: var(--white);
+}
 
 .faq-container::after {
     content: '';
-    height: 100%;
+    height: 140%;
     background-color: var(--gray);
     width: 1px;
     position: absolute;
-    right: 25px;
-    top: 0;
+    right: 0;
+    top: -30px;
 }
 
 .faq-container::before {
     content: '';
-    height: 100%;
+    height: 140%;
     background-color: var(--gray);
     width: 1px;
     position: absolute;
-    left: 25px;
-    top: 0;
+    left: 0;
+    top: -30px;
 
 }
 
@@ -1572,6 +1690,18 @@
 }
 
 
+.trust-decor--one{
+    background-color: var(--dark-black2);
+    top: -102px;
+    left: 348px;
+
+}
+.trust-decor--two{
+    background-color: var(--dark-black2);
+    top: -46px;
+    left: 179px;
+
+}
 .trust-body {
     min-height: 525px;
     width: 100%;
@@ -1619,7 +1749,7 @@
     font-size: 20px;
     color: var(--white6);
     line-height: 24px;
-    max-width: 452px;
+    max-width: 442px;
 
 }
 
@@ -2270,6 +2400,7 @@
         bottom: unset;
         right: unset;
         z-index: 3;
+        max-width: 20px;
     }
 
     .hero-section {
@@ -2294,8 +2425,9 @@
         padding: 20px 25px;
         border-radius: 25px;
     }
-    .possibilities-star{
-        top:11px;
+
+    .possibilities-star {
+        top: 11px;
         left: 7px;
         max-width: 17px;
     }
@@ -2312,7 +2444,8 @@
     .page-decor-mobile img {
         width: 100%;
     }
-    .page-decors{
+
+    .page-decors {
         min-width: max-content;
         margin: 10px auto 0;
 
@@ -2333,6 +2466,7 @@
         letter-spacing: -0.7px;
 
     }
+
     .faq-title h2 {
         margin-left: 20px;
     }
@@ -2420,6 +2554,7 @@
         max-width: 51px;
         height: 51px;
     }
+
     .trust-decor-tree {
         right: 56px;
         bottom: -30px;

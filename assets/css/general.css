@@ -10,6 +10,7 @@
 
     --black: rgba(41, 41, 41, 1);
     --dark-black: rgba(8, 8, 26, 1);
+    --dark-black2: rgba(18, 18, 38, 1);
 
 
     --gradient-gold: linear-gradient(26.31deg, #FFCC4A 9.07%, #FFDC82 90.93%);
@@ -29,6 +30,7 @@
     --gray5: rgba(150, 150, 150, 1);
     --gray6: rgba(133, 133, 133, 1);
     --gray7: rgba(255, 255, 255, 0.3);
+    --gray8: rgba(255, 255, 255, 0.5);
 
 
     --gold: rgba(255, 204, 74, 1);

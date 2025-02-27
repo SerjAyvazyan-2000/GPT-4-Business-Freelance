@@ -3,6 +3,15 @@
 let swiper = new Swiper(".grabCursor-swiper", {
     effect: "cards",
     grabCursor: true,
+    cardsEffect: {
+        cardShadow: false, // Отключаем тень на карточках
+        slideShadows: false, // Отключаем тень слайдов
+    },
+    slidesPerView: 'auto', // Чтобы слайды располагались рядом
+    centeredSlides: true, // Центрируем слайды
+    spaceBetween: 20, // Пространство между слайдам
+    overflow: 'hidden', // Чтобы за пределами слайдера ничего не показывалось
+
 });
 
 document.querySelectorAll(".reviews-arrow-right").forEach((arrow) => {
