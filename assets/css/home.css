@@ -490,7 +490,7 @@
     max-height: 71px;
     height: 100%;
     width: 100%;
-    object-fit: fill;
+    object-fit: cover;
     flex: 0 0 73px;
     background-color: transparent;
     display: block;
