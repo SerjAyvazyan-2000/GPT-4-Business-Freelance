@@ -490,7 +490,7 @@
     max-height: 71px;
     height: 100%;
     width: 100%;
-    object-fit: fill;
+    object-fit: cover;
     flex: 0 0 73px;
     background-color: transparent;
     display: block;
@@ -896,7 +896,7 @@
 
 .timer-video video {
     width: 100%;
-    object-fit: fill;
+    object-fit: cover;
     border-radius: 20px;
     height: 100%;
 }
@@ -1987,8 +1987,8 @@
     }
 
     .reviews-item-img {
-        flex: 1 1 auto;
-        max-height: 237px;
+        flex: unset;
+        height: 237px;
     }
 
     .swiper-pagination-bullet {
