@@ -255,18 +255,18 @@
 }
 
 
-.hero-slider .swiper-slide .hero-reviews-item  {
-    background: rgba(255, 255, 255, 0.08) !important;
-    opacity: 0 !important;
+/*.hero-slider .swiper-slide .hero-reviews-item  {*/
+/*    background: rgba(255, 255, 255, 0.08) !important;*/
+/*    opacity: 0 !important;*/
 
-}
+/*}*/
 
 
-.hero-slider .swiper-slide-next .hero-reviews-item  {
-    background: var(--gray8) !important;
-    opacity: 1 !important;
+/*.hero-slider .swiper-slide-next .hero-reviews-item  {*/
+/*    background: var(--gray8) !important;*/
+/*    opacity: 1 !important;*/
 
-}
+/*}*/
 
 .hero-slider .swiper-slide-prev .hero-reviews-item  {
     background: var(--gray8) !important;
@@ -274,11 +274,24 @@
 
 }
 
-.hero-slider .swiper-slide-visible .hero-reviews-item  {
+/*.hero-slider .swiper-slide-visible .hero-reviews-item  {*/
+/*    background: var(--white) !important;*/
+/*    opacity: 1 !important;*/
+/*}*/
+
+
+.hero-slider .swiper-slide-visible .hero-reviews-item {
     background: var(--white) !important;
     opacity: 1 !important;
+    z-index: 10 !important; /* Поднимаем главный слайд выше всех */
+    position: relative; /* Чтобы z-index работал */
 }
 
+.hero-slider .swiper-slide-next .hero-reviews-item,
+.hero-slider .swiper-slide-next + .swiper-slide .hero-reviews-item {
+    background: var(--gray8) !important;
+    opacity: 1 !important;
+}
 
 
 
