@@ -189,8 +189,8 @@ header.moved .header-body {
     }
 
     .menu-bg {
-        background: #000000BF;
         backdrop-filter: blur(6px);
+        -webkit-backdrop-filter: blur(6px);
         position: fixed;
         right: -200%;
         top: 0;
